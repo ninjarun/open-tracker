@@ -3,19 +3,45 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "@expo/metro-runtime": "~56.0.14",
+    "@expo/vector-icons": "^15.0.2",
+    "@morrowdigital/watermelondb-expo-plugin": "^2.3.3",
+    "@nozbe/watermelondb": "^0.28.0",
+    "@vnaidin/react-native-cryptocurrency-icons": "^0.0.31",
     "expo": "~56.0.9",
+    "expo-build-properties": "~56.0.17",
+    "expo-crypto": "~56.0.4",
+    "expo-dev-client": "~56.0.19",
+    "expo-document-picker": "~56.0.4",
+    "expo-notifications": "~56.0.16",
+    "expo-secure-store": "~56.0.4",
+    "expo-sqlite": "~56.0.4",
     "expo-status-bar": "~56.0.4",
+    "fast-xml-parser": "^5.8.0",
+    "lokijs": "^1.5.12",
+    "papaparse": "^5.5.3",
     "react": "19.2.3",
-    "react-native": "0.85.3"
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-chart-kit": "^6.12.3",
+    "react-native-rss-parser": "^1.5.1",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "^0.21.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.29.7",
+    "@babel/plugin-transform-class-properties": "^7.29.7",
+    "@babel/plugin-transform-private-methods": "^7.29.7",
+    "@babel/plugin-transform-private-property-in-object": "^7.29.7",
+    "@types/lokijs": "^1.5.14",
+    "@types/papaparse": "^5.5.2",
     "@types/react": "~19.2.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "private": true
